@@ -910,7 +910,7 @@ width: 1060px;
 box-shadow: 0 20px 45px rgba(13, 46, 99, 0.15), 0 6px 18px rgba(13, 46, 99, 0.08);
     padding: 40px;
 
-    
+    border-top: 5px solid #D4AF37;
 }
 
 .bloco_brancoPAGAMANETO2{
@@ -1281,4 +1281,107 @@ transition: background-color 0.4s ease,
 .dois_botoes button:hover {
     transform: scale(1.02); 
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Aumentei um pouquinho a opacidade para destacar mais no botão dourado */
+}
+
+
+/*confirma*/
+
+.confirmar{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+
+   gap: 20px;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+}
+
+.campo label{
+      font-family: sans-serif;
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: #0D2E63;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-transform: uppercase; 
+}
+
+.campo input{
+     width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #CBD5E1;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    color: #333333;
+    background-color: #FAFAFA;
+    box-sizing: border-box; 
+    outline: none;
+
+
+}
+
+.section_confirmar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    max-width: 800px;
+    padding: 40px;
+    margin: auto;
+    margin-top: 55px;
+
+    box-shadow: 0 20px 45px rgba(13, 46, 99, 0.15), 0 6px 18px rgba(13, 46, 99, 0.08);
+border-radius: 8px;
+
+border-top: 5PX solid #0D2E63;
+
+}
+
+.section_confirmar a{
+
+text-decoration: none;
+}
+
+.section_confirmar h1{
+margin-bottom: -7px;
+font-family: sans-serif;
+color: #0D2E63;
+}
+
+.section_confirmar p{
+margin-bottom: -5px;
+font-family: sans-serif;
+
+margin-bottom: 10px;
+}
+
+.fomra_pagamento{
+display: flex;
+margin: auto;
+margin-top: 35px;
+justify-content: center;
+
+    padding: 12px 16px;
+  border-radius: 8px;
+    background-color: #0D2E63;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: none;
+
+   width: 400px;
+
+  
+}
+
+.fomra_pagamento:hover {
+    transform: scale(1.02); 
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Aumentei um pouquinho a opacidade para destacar mais no botão dourado */
+}
+
+.campo_1{
+    margin-bottom: 14px;
 }
