@@ -1385,3 +1385,94 @@ justify-content: center;
 .campo_1{
     margin-bottom: 14px;
 }
+
+/*plano*/
+
+.banner_plano{
+    display: flex;
+    margin: 60px;
+    background-color: #0D2E63;
+    padding: 25px;
+    height: 200px;
+
+
+    border-radius: 30px;
+
+    align-items: center;
+    flex-direction: column;
+    color: #FFFFFF;
+
+    font-family: sans-serif ;
+    justify-content: center;
+     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}
+
+.banner_plano span{
+color: #D4AF37;
+}
+
+.banner_plano h1, p{
+margin: 10px;
+}
+
+.banner_plano h1{
+font-size: 40px;
+}
+
+.banner_plano p{
+font-size: 17px;
+}
+
+/*assinaturas*/
+
+.assinaturas_palno img{
+    height: auto;
+    max-width: 20px;
+
+margin-top: 5px;
+
+
+}
+
+.assinaturas_palno ul{
+    list-style: none;
+
+}
+
+
+.assinaturas_palno{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+ margin: 70px;
+}
+
+.div1_plano{
+    border: 1px solid #68748a;
+    border-radius: 8px;
+    padding: 40px;
+
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.div2_plano{
+    border: 1px solid #68748a;
+    border-radius: 8px;
+    padding: 40px;
+
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.div3_plano{
+ border: 1px solid #68748a;
+    border-radius: 8px;
+    padding: 40px;
+
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
