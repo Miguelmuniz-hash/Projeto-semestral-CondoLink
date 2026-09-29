@@ -589,10 +589,12 @@ margin-top: 60px;
     gap: 24px;
 
     font-family: sans-serif;
+
+    margin-bottom: -30px;
 }
 
 .propositos p{
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .card_sobre{
@@ -626,7 +628,11 @@ border-radius: 12px;
     color: #d1dbe5;
     font-size: 14px;
     margin: 8px;
+    
+    margin-left: 70px;
+    
 }
+
 
 /*Estrutura*/
 
@@ -642,6 +648,8 @@ margin-top: 60px;
     padding: 25px;
     
     justify-content: space-around;
+
+    margin-bottom: 70px;
    
 }
 
@@ -709,6 +717,7 @@ margin-top: 60px;
 
 .estrutura-informações{
 font-size: 15px;
+
 }
 
 .estrutura-informações p{
@@ -1394,7 +1403,7 @@ justify-content: center;
     background-color: #0D2E63;
     padding: 25px;
     height: 200px;
-
+   
 
     border-radius: 30px;
 
@@ -1429,7 +1438,7 @@ font-size: 17px;
     height: auto;
     max-width: 20px;
 
-margin-top: 5px;
+
 
 
 }
@@ -1444,7 +1453,11 @@ margin-top: 5px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
- margin: 70px;
+ margin: 290px;
+margin-top: 90px;
+margin-bottom: 90px;
+
+font-family: sans-serif;
 }
 
 .div1_plano{
@@ -1455,6 +1468,7 @@ margin-top: 5px;
     display: flex;
     flex-direction: column;
     margin: auto;
+    
 }
 
 .div2_plano{
@@ -1465,6 +1479,9 @@ margin-top: 5px;
     display: flex;
     flex-direction: column;
     margin: auto;
+    background-color: #0D2E63;
+    color: #FFFFFF;
+    border: 2px solid #D4AF37;
 }
 
 .div3_plano{
@@ -1475,4 +1492,107 @@ margin-top: 5px;
     display: flex;
     flex-direction: column;
     margin: auto;
+}
+
+.div3_plano ul{
+display: flex;
+
+flex-direction: column;
+
+
+}
+
+
+/*login*/
+
+.login_fiv{
+    display: flex;
+    flex-direction: column;
+
+   max-width: 340px;
+  
+ margin: 70px auto;
+    padding: 55px;
+    background-color: #0D2E63;
+
+    border-radius: 8px;
+
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.2);
+}
+
+.login_fiv input{
+ padding: 11px 10px;
+ border-radius: 8px;
+ border: none;
+ outline: none;
+
+ margin-bottom: 8px;
+}
+
+
+.login_fiv label{
+color: #ffffff;
+font-family: sans-serif;
+font-size: 14px;
+margin-bottom: 3px;
+}
+
+.login_fiv button{
+
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+
+color: #FFFFFF;
+font-family: sans-serif;
+
+padding: 8px;
+width: 100px;
+margin-top: 17px;
+background-color: #D4AF37;
+border-radius: 8px;
+border: none;
+
+margin: auto;
+margin-top: 17px;
+}
+
+.login_fiv img{
+margin-bottom: 10px;
+padding: 10px;
+}
+
+.login_fiv h1{
+   color: #ffffff;
+   font-family: sans-serif;
+   display: flex;
+   justify-content: center;
+   margin-right: 10px;
+   margin-bottom: 16px;
+}
+
+.petgunta_login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.petgunta_login a{
+   text-decoration: none;
+   color: #D4AF37;
+   margin-right: 10px;
+}
+#tsparticles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Garante que fique no fundo */
+  background-color: #f8f9fa; /* Um tom cinza bem suave de fundo */
 }
