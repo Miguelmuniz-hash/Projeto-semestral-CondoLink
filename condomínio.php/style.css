@@ -1596,3 +1596,59 @@ padding: 10px;
   z-index: -1; /* Garante que fique no fundo */
   background-color: #f8f9fa; /* Um tom cinza bem suave de fundo */
 }
+
+/*galeria*/
+
+.section_1galeria{
+    background-color: #0D2E63;
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 30px;
+
+    font-family: sans-serif;
+    color: #FFFFFF;
+
+  margin-bottom: -20px;
+}
+
+.section_1galeria span{
+color: #D4AF37;
+}
+
+.section_2galeria{
+    background-color: #0D2E63;
+    margin: 60px;
+    padding: 20px 100px;
+    border-radius: 20px;
+
+    font-family: sans-serif;
+    color: #FFFFFF;
+
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.class1_galeria{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.class2_galeria a{
+    display: flex;
+    text-decoration: none;
+
+
+    background-color: #D4AF37;
+color: #0D2E63;
+border-radius: 8px;
+ padding: 10px;
+
+ align-items: center;
+ justify-content: center;
+}
