@@ -12,7 +12,7 @@
     <navbar class="navbar">
 <img src="https://www.image2url.com/r2/default/images/1791469493287-1eef621c-4465-4b5c-93a5-49bc0c4cbefe.png" alt="image" />    <div class="paginas_navbar">
     <a href="index.html">Início</a>
-    <a href="sobre.html">Sobre nós</a>
+    <a href="index.html#nosso-proposito">Sobre nós</a>
     <a href="plano.html">Planos</a>
 </div>
 
@@ -24,26 +24,31 @@
     </navbar>
 
 <section>
-  <form action="" method="POST"></form>
-    <div class="login_fiv">
-<img src="https://www.image2url.com/r2/default/images/1791469493287-1eef621c-4465-4b5c-93a5-49bc0c4cbefe.png" alt="image" />        
-        <h1>Cadastro</h1>
+    <form action="" method="POST">
+        <div class="login_fiv">
+            <img src="https://www.image2url.com/r2/default/images/1791469493287-1eef621c-4465-4b5c-93a5-49bc0c4cbefe.png" alt="image" />        
+            <h1>Cadastro</h1>
 
-        <label>Nome</label>
-        <input type="name" name="nome"  placeholder="Digite seu nome">
+            <label>Nome</label>
+            <input type="text" name="nome" placeholder="Digite seu nome">
 
-        <label>E-mail</label>
-        <input type="email" name="email"  placeholder="Digite seu E-mail">
+            <label>E-mail</label>
+            <input type="email" name="email" placeholder="Digite seu E-mail">
 
-        <label>Senha</label>
-        <input type="password" name="senha" placeholder="Digite sua senha">
+            <label>Senha</label>
+            <input type="password" name="senha" placeholder="Digite sua senha">
 
-        <button>Entre</button>
+            <div class="termo_cadastro">
+                <input type="checkbox" id="termos" name="termos" required>
+                <label for="termos">Li e aceito os <a href="termos.html" target="_blank">Termos</a> e a <a href="politica.html" target="_blank">Privacidade</a></label>
+            </div>
 
-        <div class="petgunta_login">
-            <p>Não tem Login?</p><a href="login.html">Login</a>
+            <button type="submit">Cadastrar</button>
+
+            <div class="petgunta_login">
+                <p>Já tem uma conta?</p><a href="login.html">Login</a>
+            </div>
         </div>
-    </div>
     </form>
 </section>
 
@@ -64,7 +69,7 @@
 <h3>Institucional</h3>
 
 <ul>
-  <li><a href="sobre.html">Sobre nós</a></li>
+  <li><a href="index.html#nosso-proposito">Sobre nós</a></li>
   <li><a href="estrutura.html">Estrutura</a></li>
   <li><a href="galeria.html">Galeria</a></li>
 </ul>
