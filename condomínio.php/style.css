@@ -295,13 +295,13 @@ width: 100%;
     color: #4b5563;
     margin: 0;
 }
-/* Container Geral dos Dois Blocos */
+
 .funcionamento-container {
     display: flex;
     flex-direction: column;
-    gap: 24px; /* Distância entre o bloco de cima e o de baixo */
+    gap: 24px; 
     width: 92%;
-    max-width: 1350px; /* Mantém exatamente o mesmo alinhamento do banner do topo */
+    max-width: 1350px; 
     margin: 20px auto 60px auto;
     font-family: sans-serif;
     box-sizing: border-box;
@@ -313,24 +313,34 @@ width: 100%;
     margin-top: -10px;
 }
 
-/* Bloco Unido Azul Escuro */
 .funcionamento-bloco {
     background-color: #0D2E63;
     border-radius: 20px;
     padding: 30px 20px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr auto 1fr;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     box-shadow: 0 8px 20px rgba(13, 46, 99, 0.12);
+    row-gap: 40px;
 }
 
-/* Linha Vertical Divisória Dourada */
 .linha_divisoria {
     height: 80px;
     border: none;
     border-left: 1px solid #D4AF37;
     margin: 0 10px;
     opacity: 0.4;
+}
+
+.linha-divisisora{
+   grid-column: 1 / -1; 
+    
+    height: 1px;
+    border: none;
+    border-top: 1px solid #D4AF37;
+    opacity: 0.3;
+    margin: 0px 40px;
 }
 
 /* Cada Item dentro do Bloco */
@@ -855,6 +865,40 @@ margin-top: 60px;
    
 }
 
+.duasinfmrações_estrutura{
+    box-shadow: 0 10px 25px rgba(13, 46, 99, 0.20);
+    
+}
+
+
+.duasinfmrações_estrutura {
+    box-shadow: 0 4px 15px rgba(13, 46, 99, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.duasinfmrações_estrutura:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(13, 46, 99, 0.18);
+}
+
+.tecnologia-azul{
+    box-shadow: 0 10px 25px rgba(13, 46, 99, 0.20);
+    
+}
+
+
+.tecnologia-azul {
+    box-shadow: 0 4px 15px rgba(13, 46, 99, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.tecnologia-azul:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(13, 46, 99, 0.18);
+}
+
 
 .section_estrutura h1 {
   font-family: sans-serif;
@@ -890,6 +934,23 @@ margin-top: 60px;
     font-weight: bold;
 }
 
+.botao_plano_estrutua{
+    box-shadow: 0 10px 25px rgba(13, 46, 99, 0.20);
+    
+}
+
+
+.botao_plano_estrutua {
+    box-shadow: 0 4px 15px rgba(13, 46, 99, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.botao_plano_estrutua:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(13, 46, 99, 0.18);
+}
+
 .botao_plano_estrutua a{
     text-decoration: none;
     color: #0D2E63;
@@ -922,6 +983,8 @@ font-size: 15px;
 
 }
 
+
+
 .estrutura-informações p{
     color: #4b5563;
 }
@@ -934,6 +997,7 @@ font-size: 15px;
 display: flex;
 justify-content: center;
 font-family: sans-serif;
+background-color: #eef2f6;
 }
 
 
@@ -976,7 +1040,7 @@ font-family: sans-serif;
 .duasinfmrações_estrutura{
     border-radius: 12px;
     border: 1px solid #e2e8f0;
-    padding: 20px;
+    padding: 14px 25px;
 }
 
 /*termos e condições*/
