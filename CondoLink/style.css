@@ -613,6 +613,10 @@ margin-top: 10px;
   font-size: 15px;
 }
 
+footer a{
+    text-decoration: none;
+}
+
 .footer-column ul li a:hover {
   text-decoration: underline;
 }
@@ -2295,6 +2299,8 @@ font-size: 17px;
       display: grid;
       grid-template-columns: repeat(2, 1fr); 
       gap: 30px; 
+
+      margin-top: 70px;
     }
 
     .card-item {
